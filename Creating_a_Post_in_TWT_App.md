@@ -37,6 +37,7 @@ Tech Writer's Tribe (TWT) app is a social networking platform that allows techni
 The following figure shows the types of posts available in the TWT mobile app.
 
 
+
 # Before you get started
 
 To create and share posts in the TWT mobile app, complete the following steps:
