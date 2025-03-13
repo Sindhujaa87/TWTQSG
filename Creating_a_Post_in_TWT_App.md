@@ -91,12 +91,12 @@ To share an image,
 4. In the **Share a Post** page, on the bottom pane, select **Photos**.
 5. From your mobile gallery, select single or multiple images.
 6. Select **Add**.  
-   The TWT app adds the selected image to your post.
+    The TWT app adds the selected image to your post.
 7. (Optional)In the **Share a Post** page, enter a text to post.
 8. On the top-right corner, select **Add Tag.**
 9. In the tag list, select the desired tag.
-   The TWT app attaches the selected tag to your post.
-10. On the top-right corner, select **POST**.
+    The TWT app attaches the selected tag to your post.
+11. On the top-right corner, select **POST**.
 
 An image post is created.
 
