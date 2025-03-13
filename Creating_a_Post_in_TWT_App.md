@@ -46,7 +46,7 @@ To create and share posts in the TWT mobile app, complete the following steps:
     Download the app from Google Play  [Tech Writer's Tribe - Apps on Google Play](https://play.google.com/store/apps/details?id=com.rpy.techwrarhpin)
 2. **Create an Account**  
     Sign up with your email ID or mobile number to access all features.
-3. **Set Up Your Profile (Recommended)**
+3. **Set Up Your Profile (Recommended)**  
     Add your name, email, location, interested topics, social media urls, and profile picture to enhance engagement with your posts.
 
 # Creating a Post
@@ -95,7 +95,7 @@ To share an image,
 7. (Optional)In the **Share a Post** page, enter a text to post.
 8. On the top-right corner, select **Add Tag.**
 9. In the tag list, select the desired tag.
-    The TWT app attaches the selected tag to your post.
+   The TWT app attaches the selected tag to your post.
 10. On the top-right corner, select **POST**.
 
 An image post is created.
