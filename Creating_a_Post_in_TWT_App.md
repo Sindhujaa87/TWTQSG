@@ -94,8 +94,8 @@ To share an image,
     The TWT app adds the selected image to your post.
 7. (Optional)In the **Share a Post** page, enter a text to post.
 8. On the top-right corner, select **Add Tag.**
-9. In the tag list, select the desired tag.
-    The TWT app attaches the selected tag to your post.
+9. In the tag list, select the desired tag.  
+   The TWT app attaches the selected tag to your post.
 11. On the top-right corner, select **POST**.
 
 An image post is created.
