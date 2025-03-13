@@ -1,17 +1,10 @@
-Tech Writer’s Tribe
+# Tech Writer’s Tribe
 
-Creating a Post
+## Creating a Post
 
-Quick Start Guide
+### Quick Start Guide
 
-
-Version 1.0
-
-**Copyright**
-
-&lt;copyright information&gt;
-
-**Table of Contents**
+## Table of Contents
 
 [Overview](#overview)
 
@@ -19,15 +12,15 @@ Version 1.0
 
 [Creating a Post](#creating-a-post)
 
-[Create a Text-only Post](#create-a-text-only-post)
+- [Create a Text-only Post](#create-a-text-only-post)
 
-[Share an Image](#share-an-image)
+- [Share an Image](#share-an-image)
 
-[Share a Video](#share-a-video)
+- [Share a Video](#share-a-video)
 
-[Post Audio](#post_audio)
+- [Post Audio](#post_audio)
 
-[Share a file](#share-a-file)
+- [Share a file](#share-a-file)
 
 [Add a Question](#add-a-question)
 
@@ -238,5 +231,4 @@ The Quiz is created. Now, you can view the responses when others answer your qui
 
 - **Can I create custom tags?**  
     At the moment, you can only select from predefined tags.
-
 
