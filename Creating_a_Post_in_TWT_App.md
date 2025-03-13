@@ -92,10 +92,9 @@ You can share an image as your post with the technical writer community.
 7. (Optional)In the **Share a Post** page, enter a text to post.
 8. On the top-right corner, select **Add Tag.**
 9. In the tag list, select the desired tag.
+    The TWT app attaches the selected tag to your post.
 
-The TWT app attaches the selected tag to your post.
-
-1. On the top-right corner, select **POST**.
+10. On the top-right corner, select **POST**.
 
 An image post is created.
 
@@ -224,8 +223,8 @@ The Quiz is created. Now, you can view the responses when others answer your qui
 
 # Frequently Asked Questions
 
-- **Can I edit or remove a tag after posting?  
-    **Currently, you cannot edit tags after posting. However, you can delete the post and create a new one with the correct tags.  
+- **Can I edit or remove a tag after posting?**  
+    Currently, you cannot edit tags after posting. However, you can delete the post and create a new one with the correct tags.  
 
 - **Is there a limit to the number of tags I can use per post?**  
     Yes, you can attach up to 3 tags per post.  
