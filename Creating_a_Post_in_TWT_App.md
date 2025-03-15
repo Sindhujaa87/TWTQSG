@@ -1,34 +1,23 @@
 # Tech Writer’s Tribe
 
-## Creating a Post
+![image](images/TWT_logo.png)
 
-### Quick Start Guide
+## Creating a Post - Quick Start Guide
 
-## Table of Contents
+### Table of Contents
 
-[Overview](#overview)
-
-[Before you get started](#before-you-get-started)
-
-[Creating a Post](#creating-a-post)
-
-- [Create a Text-only Post](#create-a-text-only-post)
-
-- [Share an Image](#share-an-image)
-
-- [Share a Video](#share-a-video)
-
-- [Post Audio](#post_audio)
-
-- [Share a file](#share-a-file)
-
-[Add a Question](#add-a-question)
-
-[Create a Poll](#create-a-poll)
-
-[Create a Quiz](#create-a-quiz)
-
-#
+- [Overview](#overview)
+- [Before you get started](#before-you-get-started)
+- [Creating a Post](#creating-a-post)
+  - [Create a Text-only Post](#create-a-text-only-post)
+  - [Share an Image](#share-an-image)
+  - [Share a Video](#share-a-video)
+  - [Post Audio](#post-audio)
+  - [Share a File](#share-a-file)
+  - [Add a Question](#add-a-question)
+  - [Create a Poll](#create-a-poll)
+  - [Create a Quiz](#create-a-quiz)
+- [Frequently Asked Questions](#frequently-asked-questions)
 
 # Overview
 
@@ -36,7 +25,7 @@ Tech Writer's Tribe (TWT) app is a social networking platform that allows techni
 
 The following figure shows the types of posts available in the TWT mobile app.
 
-
+![image](images/TWT_App.png)
 
 # Before you get started
 
@@ -234,3 +223,7 @@ The Quiz is created. Now, you can view the responses when others answer your qui
 - **Can I create custom tags?**  
     At the moment, you can only select from predefined tags.
 
+
+
+[def]: #
+[def2]: #
