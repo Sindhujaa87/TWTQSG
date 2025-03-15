@@ -9,7 +9,7 @@
 ### Table of Contents
 
 - [Overview](#overview)
-- [Before you get started](#before-you-get-started)
+- [Prerequisites](#prerequisites)
 - [Creating a Post](#creating-a-post)
   - [Create a Text-only Post](#create-a-text-only-post)
   - [Share an Image](#share-an-image)
@@ -31,7 +31,7 @@ The following figure shows the types of posts available in the TWT mobile app.
 <img src="images/TWT_App.png" alt="TWT Overview" width="500" height="400">
 </div>
 
-# Before you get started
+# Prerequisites
 
 To create and share posts in the TWT mobile app, complete the following steps:
 
