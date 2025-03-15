@@ -1,7 +1,7 @@
 # Tech Writer’s Tribe
 
 <div align="center">
-![image](images/TWT_logo.png)
+<img src="images/TWT_logo.png" alt="TWT logo">
 </div>
 
 ## Creating a Post - Quick Start Guide
@@ -28,7 +28,7 @@ Tech Writer's Tribe (TWT) app is a social networking platform that allows techni
 The following figure shows the types of posts available in the TWT mobile app.
 
 <div align="center">
-<img src="images/TWT_App.png" alt="Description" width="500" height="400">
+<img src="images/TWT_App.png" alt="TWT Overview" width="500" height="400">
 </div>
 
 # Before you get started
