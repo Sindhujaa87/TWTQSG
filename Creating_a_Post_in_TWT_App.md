@@ -1,6 +1,8 @@
 # Tech Writer’s Tribe
 
+<div align="center">
 ![image](images/TWT_logo.png)
+</div>
 
 ## Creating a Post - Quick Start Guide
 
