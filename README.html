@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>README.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="tech-writers-tribe">Tech Writer’s Tribe</h1>
+<div align="center">
+<img src="images/TWT_logo.png" alt="TWT logo">
+</div>
+<h2 id="creating-a-post---quick-start-guide">Creating a Post - Quick Start Guide</h2>
+<h3 id="table-of-contents">Table of Contents</h3>
+<ul>
+<li><a href="#tech-writers-tribe">Tech Writer’s Tribe</a>
+<ul>
+<li><a href="#creating-a-post---quick-start-guide">Creating a Post - Quick Start Guide</a>
+<ul>
+<li><a href="#table-of-contents">Table of Contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#prerequisites">Prerequisites</a></li>
+<li><a href="#creating-a-post">Creating a Post</a>
+<ul>
+<li><a href="#create-a-text-only-post">Create a Text-only Post</a></li>
+<li><a href="#share-an-image">Share an Image</a></li>
+<li><a href="#share-a-video">Share a Video</a></li>
+<li><a href="#post-audio">Post Audio</a></li>
+<li><a href="#share-a-file">Share a File</a></li>
+<li><a href="#add-a-question">Add a Question</a></li>
+<li><a href="#create-a-poll">Create a Poll</a></li>
+<li><a href="#create-a-quiz">Create a Quiz</a></li>
+</ul>
+</li>
+<li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+</ul>
+<h1 id="overview">Overview</h1>
+<p>Tech Writer's Tribe (TWT) app is a social networking platform that allows technical writers to share posts, upload and download resources, ask questions, and engage in knowledge-sharing activities. This quick start guide describes how to create a post on Tech Writer’s Tribe (TWT) Android mobile app.</p>
+<p>The following figure shows the types of posts available in the TWT mobile app.</p>
+<div align="center">
+<img src="images/TWT_App.png" alt="TWT Overview" width="500" height="400">
+</div>
+<h1 id="prerequisites">Prerequisites</h1>
+<p>To create and share posts in the TWT mobile app, complete the following steps:</p>
+<ol>
+<li><strong>Install the Tech Writer's Tribe (TWT) App</strong><br>
+Download the app from Google Play  <a href="https://play.google.com/store/apps/details?id=com.rpy.techwrarhpin">Tech Writer's Tribe - Apps on Google Play</a></li>
+<li><strong>Create an Account</strong><br>
+Sign up with your email ID or mobile number to access all features.</li>
+<li><strong>Set Up Your Profile (Recommended)</strong><br>
+Add your name, email, location, interested topics, social media urls, and profile picture to enhance engagement with your posts.</li>
+</ol>
+<h1 id="creating-a-post">Creating a Post</h1>
+<p>The Tech Writer’s Tribe (TWT) app allows you to create and share posts with the technical writer community. You can create the following types of posts in the TWT app.</p>
+<ul>
+<li>Text-only Post</li>
+<li>Share an Image</li>
+<li>Share a Video</li>
+<li>Post Audio</li>
+<li>Share a File</li>
+<li>Add a Question</li>
+<li>Create a Poll</li>
+<li>Create a Quiz</li>
+</ul>
+<h2 id="create-a-text-only-post">Create a Text-only Post</h2>
+<p>You can create only text as your post and share with the technical writer community.</p>
+<p>To create,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Post</strong>.</li>
+<li>On the <strong>Share a Post</strong> screen, enter a text to post.</li>
+<li>On the top-right corner, select <strong>Add Tag</strong>.</li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your post.</li>
+<li>On the top-right corner, select <strong>POST</strong>.</li>
+</ol>
+<p>The text-only post is created.</p>
+<h2 id="share-an-image">Share an Image</h2>
+<p>You can share an image as your post with the technical writer community.</p>
+<p>To share an image,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Post</strong>.</li>
+<li>On the <strong>Share a Post</strong> screen, select <strong>Photos</strong>.</li>
+<li>In your mobile gallery, select single or multiple images.</li>
+<li>Select <strong>Add</strong>.<br>
+The TWT app adds the selected image to your post.</li>
+<li>(Optional)On the <strong>Share a Post</strong> screen, enter a text to post.</li>
+<li>On the top-right corner, select <strong>Add Tag.</strong></li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your post.</li>
+<li>On the top-right corner, select <strong>POST</strong>.</li>
+</ol>
+<p>An image post is created.</p>
+<h2 id="share-a-video">Share a Video</h2>
+<p>You can share a video as your post with the technical writer community.</p>
+<p>To share a video,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Post</strong>.</li>
+<li>On the <strong>Share a Post</strong> screen, select <strong>Videos</strong>.</li>
+<li>In your mobile gallery, select a video.<br>
+The TWT app adds the selected video to your post.</li>
+<li>(Optional)On the <strong>Share a Post</strong> screen, enter a text to post.</li>
+<li>On the top-right corner, select <strong>Add Tag.</strong></li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your post.</li>
+<li>On the top-right corner, select <strong>POST</strong>.</li>
+</ol>
+<p>A video post is created.</p>
+<h2 id="post-audio">Post Audio</h2>
+<p>You can create an audio as a post and share with the technical writer community.</p>
+<p>To post audio,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Post</strong>.</li>
+<li>On the <strong>Share a Post</strong> screen, select <strong>Audio</strong>.</li>
+<li>Allow the TWT app to record audio.</li>
+<li>Record your audio.</li>
+<li>Select STOP RECORDING.<br>
+The TWT app adds the audio file to your post.</li>
+<li>(Optional)On the <strong>Share a Post</strong> screen, enter a text to post.</li>
+<li>On the top-right corner, select <strong>Add Tag.</strong></li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your post.</li>
+<li>On the top-right corner, select <strong>POST</strong>.</li>
+</ol>
+<p>An audio post is created.</p>
+<h2 id="share-a-file">Share a File</h2>
+<p>You can add audio files, video files, and other documents to your posts and share them with the technical writer community.</p>
+<p>To share a file,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Post</strong>.</li>
+<li>On the <strong>Share a Post</strong> screen, select <strong>Documents</strong>.</li>
+<li>Select the file to upload from the available options.<br>
+The TWT app adds the selected file to your post.</li>
+<li>(Optional)On the <strong>Share a Post</strong> screen, enter a text to post.</li>
+<li>On the top-right corner, select <strong>Add Tag.</strong></li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your post.</li>
+<li>On the top-right corner, select <strong>POST</strong>.</li>
+</ol>
+<p>A post is created with the selected file.</p>
+<h2 id="add-a-question">Add a Question</h2>
+<p>You can ask a question to the technical writer community.</p>
+<p>To add a question,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Question</strong>.<br>
+The TWT app displays the <strong>Share a Question</strong> screen.</li>
+<li>In the <strong>Question</strong> box, enter a question.</li>
+<li>On the top-right corner, select <strong>Add Tag.</strong></li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your question.</li>
+<li>Select <strong>Post Question</strong>.</li>
+</ol>
+<p>The question is created. Now, you can view the responses when others answer your question.</p>
+<h2 id="create-a-poll">Create a Poll</h2>
+<p>You can create a poll to seek views about a topic with other users.</p>
+<p>To create,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Poll</strong>.<br>
+The TWT app displays the <strong>Share a Poll</strong> screen.</li>
+<li>In the <strong>Question</strong> box, enter a question.</li>
+<li>In the <strong>Options</strong> box, enter the options.<br>
+<strong>Note</strong>: To add more than two options, select <strong>+ Add more</strong>.</li>
+<li>In the <strong>Expires In</strong> box, select expiry days from the drop-down list.</li>
+<li>On the top-right corner, select <strong>Add Tag.</strong></li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your poll.</li>
+<li>Select <strong>Post Poll</strong>.</li>
+</ol>
+<p>The poll is created. You can view the responses when others participate in your poll.</p>
+<h2 id="create-a-quiz">Create a Quiz</h2>
+<p>You can create a post as a quiz to test the knowledge of other users.</p>
+<p>To create,</p>
+<ol>
+<li>On your mobile, launch the TWT app.</li>
+<li>On the home page, at the bottom-right, Select <strong>(+)</strong>.</li>
+<li>In the list, select <strong>Quiz</strong>.<br>
+The TWT app displays the <strong>Share a Quiz</strong> screen.</li>
+<li>In the <strong>Question</strong> box, enter a question.</li>
+<li>In the <strong>Options</strong> box, enter the options.<br>
+<strong>Note</strong>: To add more than two options, select <strong>+ Add more</strong>.</li>
+<li>In the <strong>Answer</strong> box, select the correct answer from the drop-down list.</li>
+<li>In the <strong>Expires In</strong> box, select expiry days from the drop-down list.</li>
+<li>On the top-right corner, select <strong>Add Tag.</strong></li>
+<li>In the tag list, select the desired tag.<br>
+The TWT app attaches the selected tag to your quiz.</li>
+<li>Select <strong>Post Quiz</strong>.</li>
+</ol>
+<p>The Quiz is created. Now, you can view the responses when others answer your quiz.</p>
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+<ul>
+<li>
+<p><strong>Can I edit or remove a tag after posting?</strong><br>
+Currently, you cannot edit tags after posting. However, you can delete the post and create a new one with the correct tags.</p>
+</li>
+<li>
+<p><strong>Is there a limit to the number of tags I can use per post?</strong><br>
+Yes, you can attach up to 3 tags per post.</p>
+</li>
+<li>
+<p><strong>Can I create custom tags?</strong><br>
+At the moment, you can only select from predefined tags.</p>
+</li>
+</ul>
+
+</body>
+</html>
