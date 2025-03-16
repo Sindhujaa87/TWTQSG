@@ -8,9 +8,6 @@
 
 ### Table of Contents
 
-- [Tech Writer’s Tribe](#tech-writers-tribe)
-  - [Creating a Post - Quick Start Guide](#creating-a-post---quick-start-guide)
-    - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
 - [Creating a Post](#creating-a-post)
