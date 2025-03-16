@@ -211,7 +211,7 @@ To create,
 7. In the **Expires In** box, select expiry days from the drop-down list.
 8. On the top-right corner, select **Add Tag.**
 9. In the tag list, select the desired tag.  
-    The TWT app attaches the selected tag to your poll.
+    The TWT app attaches the selected tag to your quiz.
 10. Select **Post Quiz**.
 
 The Quiz is created. Now, you can view the responses when others answer your quiz.
