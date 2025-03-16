@@ -63,8 +63,8 @@ To create,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Post**.
-4. In the **Share a Post** page, enter a text to post.
+3. In the list, select **Post**.
+4. On the **Share a Post** screen, enter a text to post.
 5. On the top-right corner, select **Add Tag**.
 6. In the tag list, select the desired tag.  
    The TWT app attaches the selected tag to your post.
@@ -80,12 +80,12 @@ To share an image,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Post**.
-4. In the **Share a Post** page, on the bottom pane, select **Photos**.
-5. From your mobile gallery, select single or multiple images.
+3. In the list, select **Post**.
+4. On the **Share a Post** screen, select **Photos**.
+5. In your mobile gallery, select single or multiple images.
 6. Select **Add**.  
     The TWT app adds the selected image to your post.
-7. (Optional)In the **Share a Post** page, enter a text to post.
+7. (Optional)On the **Share a Post** screen, enter a text to post.
 8. On the top-right corner, select **Add Tag.**
 9. In the tag list, select the desired tag.  
    The TWT app attaches the selected tag to your post.
@@ -101,11 +101,11 @@ To share a video,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Post**.
-4. In the **Share a Post** page, on the bottom pane, select **Videos**.
-5. From your mobile gallery, select a video.  
+3. In the list, select **Post**.
+4. On the **Share a Post** screen, select **Videos**.
+5. In your mobile gallery, select a video.  
     The TWT app adds the selected video to your post.
-6. (Optional)In the **Share a Post** page, enter a text to post.
+6. (Optional)On the **Share a Post** screen, enter a text to post.
 7. On the top-right corner, select **Add Tag.**
 8. In the tag list, select the desired tag.  
     The TWT app attaches the selected tag to your post.
@@ -121,13 +121,13 @@ To post audio,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Post**.
-4. In the **Share a Post** page, on the bottom pane, select **Audio**.
+3. In the list, select **Post**.
+4. On the **Share a Post** screen, select **Audio**.
 5. Allow the TWT app to record audio.
 6. Record your audio.
 7. Select STOP RECORDING.  
     The TWT app adds the audio file to your post.
-8. (Optional)In the **Share a Post** page, enter a text to post.
+8. (Optional)On the **Share a Post** screen, enter a text to post.
 9. On the top-right corner, select **Add Tag.**
 10. In the tag list, select the desired tag.  
     The TWT app attaches the selected tag to your post.
@@ -143,11 +143,11 @@ To share a file,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Post**.
-4. In the **Share a Post** page, on the bottom pane, select **Documents**.
+3. In the list, select **Post**.
+4. On the **Share a Post** screen, select **Documents**.
 5. Select the file to upload from the available options.  
     The TWT app adds the selected file to your post.
-6. (Optional)In the **Share a Post** page, enter a text to post.
+6. (Optional)On the **Share a Post** screen, enter a text to post.
 7. On the top-right corner, select **Add Tag.**
 8. In the tag list, select the desired tag.  
     The TWT app attaches the selected tag to your post.
@@ -163,9 +163,9 @@ To add a question,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Question**.  
-    The TWT app displays the **Share a Question** page.
-4. In the **Question** field, enter a question.
+3. In the list, select **Question**.  
+    The TWT app displays the **Share a Question** screen.
+4. In the **Question** box, enter a question.
 5. On the top-right corner, select **Add Tag.**
 6. In the tag list, select the desired tag.  
     The TWT app attaches the selected tag to your question.
@@ -181,12 +181,12 @@ To create,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Poll**.  
-    The TWT app displays the **Share a Poll** page.
-4. In the **Question** field, enter a question.
-5. In the **Options** field, enter the options.  
+3. In the list, select **Poll**.  
+    The TWT app displays the **Share a Poll** screen.
+4. In the **Question** box, enter a question.
+5. In the **Options** box, enter the options.  
     **Note**: To add more than two options, select **\+ Add more**.
-6. In the **Expires In** field, select expiry days from the drop-down list.
+6. In the **Expires In** box, select expiry days from the drop-down list.
 7. On the top-right corner, select **Add Tag.**
 8. In the tag list, select the desired tag.  
     The TWT app attaches the selected tag to your poll.
@@ -202,13 +202,13 @@ To create,
 
 1. On your mobile, launch the TWT app.
 2. On the home page, at the bottom-right, Select **(+)**.
-3. From the list, select **Quiz**.  
-    The TWT app displays the **Share a Quiz** page.
-4. In the **Question** field, enter a question.
-5. In the **Options** field, enter the options.  
+3. In the list, select **Quiz**.  
+    The TWT app displays the **Share a Quiz** screen.
+4. In the **Question** box, enter a question.
+5. In the **Options** box, enter the options.  
     **Note**: To add more than two options, select **\+ Add more**.
-6. In the **Answer** field, select the correct answer from the drop-down list.
-7. In the **Expires In** field, select expiry days from the drop-down list.
+6. In the **Answer** box, select the correct answer from the drop-down list.
+7. In the **Expires In** box, select expiry days from the drop-down list.
 8. On the top-right corner, select **Add Tag.**
 9. In the tag list, select the desired tag.  
     The TWT app attaches the selected tag to your poll.
