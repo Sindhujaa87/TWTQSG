@@ -1,9 +1,8 @@
-
-## Creating a Post - Quick Start Guide
+## Creating a Post: Quick Start Guide
 
 ![images](images/TWT_logo.png)
 
-### Table of Contents
+**Table of Contents**
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
